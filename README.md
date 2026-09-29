@@ -85,10 +85,14 @@ Abra `index.html` no browser ou aloje a pasta num servidor web
 
 ## 🌍 Deploy
 
-### GitHub Pages
-O repositório https://github.com/cvfebres-netizen/cvfebres contém o site na raiz.
-Ative o GitHub Pages na branch `main` (pasta raiz). O ficheiro `.nojekyll`
-garante que o Jekyll não processa o site.
+### GitHub Pages (site ativo)
+
+- **Repositório:** https://github.com/cvfebres-netizen/cvf_website
+- **URL público:** https://cvfebres-netizen.github.io/cvf_website/
+
+O site está na raiz do repositório, na branch `main` (fonte do Pages:
+branch `main` / pasta `/`). O ficheiro `.nojekyll` garante que o Jekyll não
+processa o site. Cada `git push` da pasta `CVF_Website/` publica automaticamente.
 
 ### cPanel / FTP
 Pode enviar o conteúdo da pasta `CVF_Website/` para a raiz do domínio
