@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>CVF — Centro Veterinário de Febres</title>
+  <meta name="description" content="Centro Veterinário de Febres. Cuidado próximo, responsabilidade comunitária e bem-estar animal em primeiro lugar. Marque a sua consulta online." />
+  <meta name="author" content="Centro Veterinário de Febres" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://cvfebres.pt/" />
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_PT" />
+  <meta property="og:title" content="CVF — Centro Veterinário de Febres" />
+  <meta property="og:description" content="Cuidado próximo, responsabilidade comunitária e bem-estar animal em primeiro lugar. Marque a sua consulta online." />
+<meta property="og:url" content="https://cvfebres.pt/" />
+  <meta property="og:site_name" content="CVF — Centro Veterinário de Febres" />
+<meta property="og:image" content="https://cvfebres.pt/assets/cvf-logo.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Logótipo CVF — Centro Veterinário de Febres" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CVF — Centro Veterinário de Febres" />
+  <meta name="twitter:description" content="Cuidado próximo, responsabilidade comunitária e bem-estar animal em primeiro lugar." />
+  <meta name="twitter:image" content="https://cvfebres.pt/assets/cvf-logo.svg" />
+
+<meta name="theme-color" content="#062a2b" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/favicon.svg" />
+
+  <!-- Fontes da marca: Satoshi (principal) + Merriweather (alternativa) -->
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&f[]=merriweather@400,700,900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Dados estruturados (VetClinic) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VeterinaryCare",
+    "name": "Centro Veterinário de Febres",
+    "url": "https://cvfebres.pt/",
+    "telephone": "+351932290927",
+    "email": "cvfebres@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Conselheiro Costa Soares 11-H",
+      "addressLocality": "Febres",
+      "addressCountry": "PT"
+    },
+    "openingHours": ["Mo-Fr 10:00-13:00 14:30-19:00", "Sa 10:00-13:00"],
+    "priceRange": "$$"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Barra de progresso do scroll -->
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <!-- Dots de navegação lateral -->
+  <nav class="scroll-dots" id="scroll-dots" aria-label="Navegação rápida"></nav>
+
+<!-- ============================================================
+       TOPBAR
+  ============================================================ -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span>📍 Rua Conselheiro Costa Soares 11-H, Febres</span>
+        <span class="topbar-hours">⏰ Seg–Sex: 10–13 · 14:30–19 | Sáb: 10–13</span>
+      </div>
+      <div class="topbar-right">
+        <a href="mailto:cvfebres@gmail.com">✉️ cvfebres@gmail.com</a>
+        <a href="tel:+351932290927">📞 932 290 927</a>
+<div class="social-links">
+          <a href="https://www.instagram.com/cvfebres" target="_blank" rel="noopener" class="social-link" aria-label="Instagram (abre em nova janela)">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.35 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.35-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.72 3.72 0 0 1-1.38-.9c-.42-.42-.68-.82-.9-1.38-.16-.42-.35-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.35 2.23-.41C8.42 2.17 8.8 2.16 12 2.16m0 1.8c-3.15 0-3.52.01-4.77.07-1.08.05-1.67.23-2.06.38-.52.2-.89.44-1.28.83-.39.39-.63.76-.83 1.28-.15.39-.33.98-.38 2.06-.06 1.25-.07 1.62-.07 4.77s.01 3.52.07 4.77c.05 1.08.23 1.67.38 2.06.2.52.44.89.83 1.28.39.39.76.63 1.28.83.39.15.98.33 2.06.38 1.25.06 1.62.07 4.77.07s3.52-.01 4.77-.07c1.08-.05 1.67-.23 2.06-.38.52-.2.89-.44 1.28-.83.39-.39.63-.76.83-1.28.15-.39.33-.98.38-2.06.06-1.25.07-1.62.07-4.77s-.01-3.52-.07-4.77c-.05-1.08-.23-1.67-.38-2.06-.2-.52-.44-.89-.83-1.28a3.44 3.44 0 0 0-1.28-.83c-.39-.15-.98-.33-2.06-.38-1.25-.06-1.62-.07-4.77-.07m0 3.06a4.98 4.98 0 1 1 0 9.96 4.98 4.98 0 0 1 0-9.96m0 1.8a3.18 3.18 0 1 0 0 6.36 3.18 3.18 0 0 0 0-6.36m5.19-2.96a1.16 1.16 0 1 1 0 2.33 1.16 1.16 0 0 1 0-2.33"/></svg>
+          </a>
+          <a href="https://www.facebook.com/cvfebres" target="_blank" rel="noopener" class="social-link" aria-label="Facebook (abre em nova janela)">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.45 2.89h-2.33v6.99A10 10 0 0 0 22 12"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       HEADER
+  ============================================================ -->
+  <header class="header">
+    <div class="container nav">
+      <a href="#inicio" class="brand">
+        <img src="assets/cvf-logo.svg" alt="Logótipo CVF" />
+        <div class="brand-text">
+          <strong>CVF</strong>
+          <span>Centro Veterinário de Febres</span>
+        </div>
+      </a>
+      <nav class="main-nav">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#inicio" class="active">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#equipa">Equipa</a></li>
+          <li><a href="#marcacao">Marcação</a></li>
+          <li><a href="#contactos">Contactos</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a href="#marcacao" class="btn btn-primary">📅 Agendar</a>
+        <button class="hamburger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg"></div>
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <span class="hero-badge">🐾 Cuidado animal com excelência</span>
+        <h1>O seu melhor amigo<br /><span class="typewriter">merece o melhor cuidado</span></h1>
+        <p class="hero-sub">
+          No <strong>Centro Veterinário de Febres</strong> unimos rigor técnico e
+          atenção humana para garantir o bem-estar dos seus animais — sempre com
+          proximidade e confiança.
+        </p>
+        <div class="hero-actions">
+          <a href="#marcacao" class="btn btn-primary btn-lg">📅 Marcar consulta</a>
+          <a href="#servicos" class="btn btn-outline btn-lg">Ver serviços</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><strong>+18</strong><span>Anos de experiência</span></div>
+          <div class="stat"><strong>+5k</strong><span>Animais acompanhados</span></div>
+          <div class="stat"><strong>100%</strong><span>Dedicação ao bem-estar</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <img src="assets/cvf-logo.svg" alt="Logótipo CVF" />
+          <h3>Centro Veterinário de Febres</h3>
+          <p>Cuidado próximo, responsabilidade comunitária e bem-estar animal em primeiro lugar.</p>
+          <a href="#marcacao" class="btn btn-accent">Agendar agora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SOBRE
+  ============================================================ -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <div class="split">
+        <div class="split-media reveal">
+          <div class="about-card">
+            <div class="about-emoji">🐾</div>
+            <h3>Uma clínica com raízes na comunidade</h3>
+            <p>
+              O Centro Veterinário de Febres é uma clínica com raízes na comunidade
+              e os valores certos no coração. Cuidamos de cada animal como se fosse
+              nosso, com ciência, ética e carinho.
+            </p>
+          </div>
+        </div>
+        <div class="split-content reveal">
+          <div class="eyebrow">Sobre nós</div>
+          <h2>Somos uma <b>clínica veterinária</b> dedicada ao bem-estar animal</h2>
+          <p>
+            Unimos rigor técnico e atenção humana para garantir o bem-estar dos seus
+            animais, sempre com proximidade e confiança.
+          </p>
+<div class="values-list">
+            <div class="value-item">
+              <div class="value-icon"><svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.7-10-9.3C.4 8.6 2.3 5 5.8 4.5c2-.3 3.9.6 5 2.2.3.4.9.4 1.2 0 1.1-1.6 3-2.5 5-2.2 3.5.5 5.4 4.1 3.8 7.2C19.5 16.3 12 21 12 21z"/></svg></div>
+              <div>
+                <h4>Cuidado Próximo</h4>
+                <p>Atendimento atento, acolhedor e personalizado para cada família.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon"><svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 4a6 6 0 1 0 0 12 6 6 0 0 0 0-12zm0 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm9-1h2v2h-2V7zm2 2h-2v2h2V9z"/></svg></div>
+              <div>
+                <h4>Responsabilidade Comunitária</h4>
+                <p>Educamos e apoiamos a comunidade, promovendo cuidados preventivos.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon"><svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M12 2c5 0 9 4 9 9 0 6-7 10.5-8.4 11.4a1 1 0 0 1-1.2 0C10 21.5 3 17 3 11a9 9 0 0 1 9-9zm0 4a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 4a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></div>
+              <div>
+                <h4>Bem-Estar Animal em Primeiro Lugar</h4>
+                <p>Respeito, conforto e saúde em cada intervenção.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVIÇOS
+  ============================================================ -->
+  <section class="section section-alt" id="servicos">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Serviços</div>
+        <h2>Os nossos <b>serviços</b></h2>
+        <p>Cuidados veterinários completos para cães, gatos e outras espécies.</p>
+      </div>
+<div class="services-grid">
+        <div class="service-card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M9 3h6a1 1 0 0 1 1 1v5h5a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-5v5a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-5H3a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h5V4a1 1 0 0 1 1-1zm1 2v6H4v4h6v6h4v-6h6v-4h-6V5h-4z"/></svg></div>
+          <h3>Medicina Geral</h3>
+          <p>Consultas de rotina, acompanhamento clínico e medicina preventiva.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M10.5 2 14 5.5 15.5 4l1.5 1.5-1.5 1.5c.5.5.8 1.2.8 2l4.5 1.5-1 1.5-4-1.5-1.5 1.5 1.5 4-1.5 1-1.5-4.5c-.8 0-1.5-.3-2-.8l-1.5 1.5L8 14.5 9.5 13 6 9.5c-.5-.5-1-1.2-1.2-2L2.3 5.5 3.3 4l4 1.5c.3-.4.6-.7 1-.9l1.2-1.1L10.5 2zM5.5 3.5 4 5l1.5 1.5L7 5 5.5 3.5zm7 3-3 3 4 4 3-3-1-1h1.5l-1.5-1.5L14 8.5 13 7.5l1.5-1.5L13 4.5 12.5 4l-1 1z"/></svg></div>
+          <h3>Vacinação</h3>
+          <p>Planos de vacinação personalizados para cada animal e estilo de vida.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm2 3v2h12V6H6zm0 4v2h8v-2H6zm0 4v2h12v-2H6zm0 4v2h8v-2H6z"/></svg></div>
+          <h3>Análises Clínicas</h3>
+          <p>Exames laboratoriais rápidos e fiáveis para um diagnóstico preciso.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M3 8a5 5 0 0 1 5-5h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H8a2 2 0 0 0-2 2v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V8zm18 8a5 5 0 0 1-5 5h-2a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h2a2 2 0 0 0 2-2v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2z"/></svg></div>
+          <h3>Ortopedia</h3>
+          <p>Especialidade do Dr. Pedro Silva — diagnóstico e tratamento músculo-esquelético.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M12 2c2.5 0 4 1.5 4.5 3.5.5 2 .7 4.5.5 7-.2 2.5-.5 5-1 7l-.2 1.6a1 1 0 0 1-2 .1L12.5 18c-.3-1.2-.5-2.5-.5-3.5 0 1-.2 2.3-.5 3.5l-.3 3.2a1 1 0 0 1-2-.1L8.2 19.5c-.5-2-.8-4.5-1-7-.2-2.5 0-5 .5-7C7.2 3.5 8.7 2 11.2 2h.8z"/></svg></div>
+          <h3>Medicina Dentária</h3>
+          <p>Limpezas, extrações e tratamento de doenças orais.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm2 2v2h2V5H6zm0 4v2h2V9H6zm0 4v2h6v-2H6zm0 4v2h12v-2H6zm10-4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-4 4h8v-2h-8v2zM8 9h2v2H8V9z"/></svg></div>
+          <h3>Internamento</h3>
+          <p>Unidade de internamento com acompanhamento dedicado e monitorização contínua.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M2 5h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2v10h18V7H3zm2 2h2v2H5V9zm4 0h2v2H9V9zm4 0h2v2h-2V9zm4 0h2v4h-2V9zm-8 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm4 0h4v2h-4v-2z"/></svg></div>
+          <h3>Imagiologia</h3>
+          <p>Radiologia e ecografia para apoio ao diagnóstico de forma não invasiva.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M14 2h4v2h1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-1v2.5l3 3V22a1 1 0 0 1-1 1H12a1 1 0 0 1-1-1v-8.5l3-3V8a1 1 0 0 1 1-1h1V5h-1V2h-1v2h-1V3a1 1 0 0 1 1-1zm1 10.5L17.5 15v5H11v-5L14 12.5zM4 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm4 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-4 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg></div>
+          <h3>Desparasitação</h3>
+          <p>Controlo de parasitas internos e externos com protocolos adequados.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M12 2c1 2 2 3.5 2 5.5A2 2 0 0 1 12 9.5 2 2 0 0 1 10 7.5c0-2 1-3.5 2-5.5zM7 8c1 1 2 2.5 2 4.5A3 3 0 0 1 6 15.5 3 3 0 0 1 3 12.5C3 10.5 4 9 5 8c.5-.5 1.5-.5 2 0zm10 0c1-.5 2-.5 2.5 0 1 1 1.5 2.5 1.5 4.5a3 3 0 0 1-3 3 3 3 0 0 1-3-3c0-2 1-3.5 1.5-4.5.5-.5 1.5-.5 2 0zM12 12c1.7 0 3 1.3 3 3 0 1.8-1.2 3.3-2 6.5a.8.8 0 0 1-1.6 0c-.8-3.2-2-4.7-2-6.5 0-1.7 1.3-3 3-3z"/></svg></div>
+          <h3>Nutrição</h3>
+          <p>Aconselhamento nutricional e planos alimentares adaptados.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M12 2 22 20a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1L12 2zm0 5-6.5 12h13L12 7zm-1 4h2v3h-2v-3zm0 4h2v2h-2v-2z"/></svg></div>
+          <h3>Urgências</h3>
+          <p>Atendimento prioritário para situações urgentes dentro do horário.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M9 3h6a1 1 0 0 1 1 1v2h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2v2h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2H6a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h2v-2H6a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h2V4a1 1 0 0 1 1-1zm1 2v2a1 1 0 0 1-1 1H8v2h1a1 1 0 0 1 1 1v2h2v-2a1 1 0 0 1 1-1h1v-2h-1a1 1 0 0 1-1-1V5h-2z"/></svg></div>
+          <h3>Farmácia</h3>
+          <p>Medicação, suplementos e produtos de higiene e bem-estar.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M4 4h16a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm2 3v10h12V7H6zm2 2h8v2H8V9zm0 4h8v2H8v-2zm0 3h5v2H8v-2z"/></svg></div>
+          <h3>Identificação Eletrónica</h3>
+          <p>Colocação de microchip e registo de identificação obrigatória.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       O QUE NOS DIFERENCIA
+  ============================================================ -->
+  <section class="section why-section" id="diferencas">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Porquê a CVF</div>
+        <h2>O que nos torna <b>diferentes?</b></h2>
+        <p>Cada animal é tratado com a mesma dedicação e o mesmo rigor técnico.</p>
+      </div>
+<div class="why-grid">
+        <div class="why-card reveal">
+          <div class="why-icon"><svg viewBox="0 0 24 24" width="38" height="38" fill="currentColor" aria-hidden="true"><path d="M12 2c5 0 9 4 9 9 0 6-7 10.5-8.4 11.4a1 1 0 0 1-1.2 0C10 21.5 3 17 3 11a9 9 0 0 1 9-9zm0 4a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 4a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg></div>
+          <h3>Especialistas dedicados</h3>
+          <p>Uma equipa especializada, incluindo ortopedia e implantologia veterinária.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon"><svg viewBox="0 0 24 24" width="38" height="38" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm1 10h5a1 1 0 0 0 0-2h-4V6a1 1 0 0 0-2 0v7a1 1 0 0 0 1 1z"/></svg></div>
+          <h3>Marcação online simples</h3>
+          <p>Escolha o dia e a hora diretamente no nosso calendário, sem complicações.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon"><svg viewBox="0 0 24 24" width="38" height="38" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.7-10-9.3C.4 8.6 2.3 5 5.8 4.5c2-.3 3.9.6 5 2.2.3.4.9.4 1.2 0 1.1-1.6 3-2.5 5-2.2 3.5.5 5.4 4.1 3.8 7.2C19.5 16.3 12 21 12 21z"/></svg></div>
+          <h3>Atendimento humano</h3>
+          <p>Proximidade e confiança com cada família, sempre disponíveis para ajudar.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon"><svg viewBox="0 0 24 24" width="38" height="38" fill="currentColor" aria-hidden="true"><path d="M2 5h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2v10h18V7H3zm2 2h2v2H5V9zm4 0h2v2H9V9zm4 0h2v2h-2V9zm4 0h2v4h-2V9zm-8 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm4 0h4v2h-4v-2z"/></svg></div>
+          <h3>Diagnóstico avançado</h3>
+          <p>Imagiologia e análises clínicas para um diagnóstico preciso e atempado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ============================================================
+       EQUIPA
+  ============================================================ -->
+  <section class="section" id="equipa">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Equipa</div>
+        <h2>A nossa <b>equipa</b></h2>
+        <p>Profissionais dedicados ao cuidado e bem-estar dos seus animais.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card reveal">
+          <div class="team-photo">
+            <span class="placeholder">PS</span>
+            <!-- <img src="assets/team/pedro-silva.jpg" alt="Dr. Pedro Silva" /> -->
+          </div>
+          <h3>Dr. Pedro Silva</h3>
+          <div class="role">Diretor Clínico · Ortopedia</div>
+          <p>Diretor clínico e especialista em ortopedia veterinária.</p>
+        </div>
+        <div class="team-card reveal">
+          <div class="team-photo">
+            <span class="placeholder">HS</span>
+            <!-- <img src="assets/team/hugo-silva.jpg" alt="Hugo Silva" /> -->
+          </div>
+          <h3>Hugo Silva</h3>
+          <div class="role">Gerente / Assistente</div>
+          <p>Gestão e atendimento ao cliente, sempre pronto a ajudar.</p>
+        </div>
+        <div class="team-card reveal">
+          <div class="team-photo">
+            <span class="placeholder">CR</span>
+            <!-- <img src="assets/team/celina-relva.jpg" alt="Dra. Celina Relva" /> -->
+          </div>
+          <h3>Dra. Celina Relva</h3>
+          <div class="role">Médica Veterinária</div>
+          <p>Médica veterinária dedicada ao cuidado clínico dos animais.</p>
+        </div>
+        <div class="team-card reveal">
+          <div class="team-photo">
+            <span class="placeholder">RR</span>
+            <!-- <img src="assets/team/rita-reis.jpg" alt="Rita Reis" /> -->
+          </div>
+          <h3>Rita Reis</h3>
+          <div class="role">Enfermeira Veterinária</div>
+          <p>Enfermagem veterinária e apoio ao tratamento dos animais.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ============================================================
+       MARCAÇÃO / GOOGLE CALENDAR (AGENDAMENTO ONLINE)
+  ============================================================ -->
+  <section class="section section-alt" id="marcacao">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Marcação online</div>
+        <h2>Marque a sua <b>consulta</b></h2>
+        <p>Escolha o dia e a hora diretamente no nosso calendário online — simples e sem complicações.</p>
+      </div>
+      <div class="booking-wrap reveal">
+        <div class="booking-info">
+          <h3>📅 Agendamento online</h3>
+          <p>Selecione no calendário o dia e a hora que preferir e confirme a sua marcação. Receberá a confirmação automaticamente.</p>
+          <ul>
+            <li>✅ Consultas de rotina e medicina geral</li>
+            <li>✅ Ortopedia e implantologia</li>
+            <li>✅ Vacinação e desparasitação</li>
+            <li>✅ Confirmação automática por email</li>
+          </ul>
+<a href="https://calendar.app.google/55Sj79jdXTr2XAPs8" target="_blank" rel="noopener" class="btn btn-accent btn-external">Abrir calendário em nova janela</a>
+        </div>
+        <div class="booking-calendar">
+          <!--
+            👇 Calendário de marcação online (Google Calendar / Appointments)
+          -->
+          <iframe
+            title="Calendário de marcação online CVF"
+            src="https://calendar.app.google/55Sj79jdXTr2XAPs8"
+width="100%"
+            height="900"
+            style="border: 0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACTOS
+  ============================================================ -->
+  <section class="section section-alt" id="contactos">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow">Contactos</div>
+        <h2>Fale <b>connosco</b></h2>
+        <p>Estamos aqui para ajudar. Contacte-nos ou marque a sua consulta online.</p>
+      </div>
+      <div class="contact-grid">
+<div class="contact-info">
+          <div class="contact-item reveal">
+            <div class="ci-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M12 1a8 8 0 0 1 8 8c0 5.3-6.5 13.6-7.4 14.6a.8.8 0 0 1-1.2 0C10.5 22.6 4 14.3 4 9a8 8 0 0 1 8-8zm0 5a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg></div>
+            <div>
+              <h4>Morada</h4>
+              <p>Rua Conselheiro Costa Soares 11-H,<br />Febres, Portugal</p>
+            </div>
+          </div>
+          <div class="contact-item reveal">
+            <div class="ci-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M6.6 2.4 9 3.8a1 1 0 0 1 .5 1.1l-.6 2.4a1 1 0 0 1-.3.5l-1.6 1.6a13 13 0 0 0 6 6l1.6-1.6c.2-.2.4-.3.6-.3l2.4-.6a1 1 0 0 1 1.1.5l1.4 2.4a1 1 0 0 1-.3 1.3l-1.9 1.4c-.3.2-.7.3-1 .2a16.5 16.5 0 0 1-11.6-9.6 3 3 0 0 1-.2-1l1.4-1.9a1 1 0 0 1 1.3-.3z"/></svg></div>
+            <div>
+              <h4>Telefone</h4>
+              <a href="tel:+351932290927">932 290 927</a>
+              <p>chamada para rede móvel nacional</p>
+            </div>
+          </div>
+          <div class="contact-item emergency reveal">
+            <div class="ci-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M12 2 22 20a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1L12 2zm0 5-6.5 12h13L12 7zm-1 4h2v3h-2v-3zm0 4h2v2h-2v-2z"/></svg></div>
+            <div>
+              <h4>Urgências</h4>
+              <a href="tel:+351932290927" class="phone-big">932 290 927</a>
+              <p>Atendimento prioritário para situações urgentes dentro do horário de funcionamento.</p>
+            </div>
+          </div>
+          <div class="contact-item reveal">
+            <div class="ci-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M3 5h18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm1 2v.5l8 5 8-5V7H4zm16 2.5L12 14 4 9.5V17h16V9.5z"/></svg></div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:cvfebres@gmail.com">cvfebres@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item reveal">
+            <div class="ci-icon"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm1 10h5a1 1 0 0 0 0-2h-4V6a1 1 0 0 0-2 0v7a1 1 0 0 0 1 1z"/></svg></div>
+            <div>
+              <h4>Horário</h4>
+              <p>Segunda a Sexta: 10:00 – 13:00 · 14:30 – 19:00</p>
+              <p>Sábado: 10:00 – 13:00</p>
+              <p>Domingo: Encerrado</p>
+            </div>
+          </div>
+        </div>
+
+<div class="contact-form reveal">
+          <h3>Envie-nos uma mensagem</h3>
+          <p class="contact-form-intro">
+            Preencha o formulário e responderemos o mais breve possível.
+          </p>
+          <div class="contact-form-embed">
+            <iframe
+              title="Formulário de contacto CVF (abre na mesma página)"
+              src="https://docs.google.com/forms/d/e/1FAIpQLScqH1L570mQnNhDsuPNPc8vBfwWEiUV7l3iJQhz33qRiMiJGg/viewform?embedded=true"
+              width="100%"
+              height="700"
+              style="border: 0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mapa -->
+      <div class="map-wrap reveal">
+        <div class="section-head">
+          <div class="eyebrow">Onde estamos</div>
+          <h2>Localização</h2>
+          <p>Rua Conselheiro Costa Soares 11-H, Febres</p>
+        </div>
+<div class="map-embed reveal">
+          <iframe
+            title="Mapa CVF — Centro Veterinário de Febres"
+            src="https://www.google.com/maps?q=Rua+Conselheiro+Costa+Soares+11-H,+Febres,+Portugal&output=embed"
+            width="100%"
+            height="400"
+            style="border: 0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA
+  ============================================================ -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-band reveal">
+        <h2>Marque a consulta do seu animal 🐶🐱</h2>
+        <p>
+          Agendamento rápido e simples através do nosso calendário online.
+          Escolha o dia e a hora que preferir.
+        </p>
+        <a href="#marcacao" class="btn btn-accent btn-lg">📅 Agendar agora</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/cvf-logo.svg" alt="CVF" />
+          <p>Cuidado próximo, responsabilidade comunitária e bem-estar animal em primeiro lugar.</p>
+<div class="social-links footer-social" style="margin-top: 16px;">
+            <a href="https://www.instagram.com/cvfebres" target="_blank" rel="noopener" class="social-link footer" aria-label="Instagram (abre em nova janela)">
+              <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.35 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.35-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.72 3.72 0 0 1-1.38-.9c-.42-.42-.68-.82-.9-1.38-.16-.42-.35-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.35 2.23-.41C8.42 2.17 8.8 2.16 12 2.16m0 1.8c-3.15 0-3.52.01-4.77.07-1.08.05-1.67.23-2.06.38-.52.2-.89.44-1.28.83-.39.39-.63.76-.83 1.28-.15.39-.33.98-.38 2.06-.06 1.25-.07 1.62-.07 4.77s.01 3.52.07 4.77c.05 1.08.23 1.67.38 2.06.2.52.44.89.83 1.28.39.39.76.63 1.28.83.39.15.98.33 2.06.38 1.25.06 1.62.07 4.77.07s3.52-.01 4.77-.07c1.08-.05 1.67-.23 2.06-.38.52-.2.89-.44 1.28-.83.39-.39.63-.76.83-1.28.15-.39.33-.98.38-2.06.06-1.25.07-1.62.07-4.77s-.01-3.52-.07-4.77c-.05-1.08-.23-1.67-.38-2.06-.2-.52-.44-.89-.83-1.28a3.44 3.44 0 0 0-1.28-.83c-.39-.15-.98-.33-2.06-.38-1.25-.06-1.62-.07-4.77-.07m0 3.06a4.98 4.98 0 1 1 0 9.96 4.98 4.98 0 0 1 0-9.96m0 1.8a3.18 3.18 0 1 0 0 6.36 3.18 3.18 0 0 0 0-6.36m5.19-2.96a1.16 1.16 0 1 1 0 2.33 1.16 1.16 0 0 1 0-2.33"/></svg>
+            </a>
+            <a href="https://www.facebook.com/cvfebres" target="_blank" rel="noopener" class="social-link footer" aria-label="Facebook (abre em nova janela)">
+              <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.45 2.89h-2.33v6.99A10 10 0 0 0 22 12"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#marcacao">Marcação</a></li>
+            <li><a href="#equipa">Equipa</a></li>
+            <li><a href="#contactos">Contactos</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contactos</h4>
+          <ul>
+            <li><a href="mailto:cvfebres@gmail.com">cvfebres@gmail.com</a></li>
+            <li><a href="tel:+351932290927">932 290 927</a></li>
+            <li>Rua Conselheiro Costa Soares 11-H, Febres</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © <span id="year"></span> Centro Veterinário de Febres (CVF). Todos os direitos reservados.
+      </div>
+    </div>
+  </footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

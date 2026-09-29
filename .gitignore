@@ -1,0 +1,15 @@
+# ── Agente de IA / tooling local (não faz parte do site) ────────
+.continue/
+.cline/
+.blackbox/
+
+# ── IDE / SO ────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── Ambiente / logs ─────────────────────────────────────────────
+*.log
+*.zip
